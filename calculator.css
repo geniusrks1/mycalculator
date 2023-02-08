@@ -1,16 +1,13 @@
-body {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: rgb(198, 121, 28);
 }
-
 html {
- font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-
 section {
-  background-color: rgb(18, 91, 137);
+  background-color: rgb(18, 26, 31);
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -20,29 +17,9 @@ section {
 .container {
   width: 90%;
   max-width: 400px;
-  background-color: rgb(25, 113, 135);
+  background-color: rgb(39, 55, 59);
   border-radius: 8px;
   overflow: hidden;
-  border: 5px solid red;
-  display: block;
-
-}
-
-
-.calculator-text{
-  background-color: rgb(166, 26, 26);
-  text-decoration-color: rgb(224, 239, 239);
-  width:85%;
-  position: relative;
-  left:24px;
-  text-align: center;
-  height: 30px;
-}
-.calculator{
-  background-color: blueviolet;
-  width: 85%;
-  position: relative;
-  left:24px;
 }
 .display {
   background-color: rgb(182, 182, 182);
@@ -52,45 +29,25 @@ section {
   padding: 20px;
   font-size: 30px;
   position: relative;
-  
-
 }
-
 .display-1 {
   opacity: 0.4;
   font-size: 20px;
   height: 20px;
   overflow: hidden;
-  position: relative;
-  right: 30px;
-  background-color:rgb(182, 182, 182);}
-
-.display-2{
-  background-color:rgb(182, 182, 182);
-  position: relative;
-  right:21px;
 }
-
-
-
 .temp-result {
   position: absolute;
   bottom: 0;
-  left: 10px;
+  left: 10;
   font-size: 20px;
-  /* opacity: 0.3; */
-  background-color: rgb(81, 118, 99);
+  opacity: 0.3;
 }
-
 .all_button {
   color: whitesmoke;
   display: grid;
   grid-template: repeat(4, 1fr) / repeat(4, 1fr);
-  row-gap: 1px;
-  column-gap: 1px;
-  border-top: 5px solid rgb(65, 47, 47);
 }
-
 .button {
   border: 0.5px solid rgba(92, 92, 92, 0.137);
   display: inline-block;
@@ -102,13 +59,9 @@ section {
   font-size: 30px;
   cursor: pointer;
 }
-
-
 .button:hover {
-  background-color: rgb(49, 154, 178);
+  background-color: rgb(30, 43, 46);
 }
-
-
 .btn-0 {
   grid-column: 1/3;
 }
